@@ -15,35 +15,35 @@
 
       /* Контейнер для центрирования контента */
       .container {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 20px;
-      }
+  max-width: 900px;       /* ограничивает ширину контента */
+  margin: 40px auto;      /* отступ сверху + центрирование по горизонтали */
+  padding-left: 20px;     /* отступ слева, чтобы текст не прилипал к краю */
+  padding-right: 20px;
+}
 
       /* Верхняя панель с кнопками */
-      .navbar {
-        display: flex;
-        gap: 12px;
-        margin-bottom: 30px;
-        flex-wrap: wrap;
-      }
+    .navbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
 
-      /* Кнопки */
-      .btn {
-        padding: 10px 16px;
-        border: none;
-        cursor: pointer;
-        text-decoration: none;
-        color: #ffffff;             /* белый текст на кнопках */
-        background-color: #333333;  /* тёмно‑серый цвет кнопок */
-        border-radius: 4px;
-        font-size: 14px;
-        transition: background-color 0.2s;
-      }
+    .btn {
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #333333;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
 
-      .btn:hover {
-        background-color: #555555;  /* чуть светлее при наведении */
-      }
+.btn:hover {
+  background-color: #555555;
+}
 
       /* Основной заголовок и текст ниже */
       h1 {
